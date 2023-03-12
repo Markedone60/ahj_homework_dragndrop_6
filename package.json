@@ -1,5 +1,5 @@
 {
-  "name": "ahj_trello",
+  "name": "ahj_homework_dragndrop_6",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "coverage": "jest --coverage",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
@@ -17,8 +17,16 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "Markedone60",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markedone60/ahj_homework_dragndrop_6.git"
+  },
+  "author": "markedone60",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markedone60/ahj_homework_dragndrop_6/issues"
+  },
+  "homepage": "https://github.com/Markedone60/ahj_homework_dragndrop_6#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",

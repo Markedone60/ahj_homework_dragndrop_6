@@ -1,10 +1,10 @@
 export default class TrelloLogic {
   constructor(page) {
     this.page = page;
-    this.dragEl = null; 
-    this.dragCloneEl = null;  
-    this.dragElHeight = null; 
-    this.startPosX = null; 
+    this.dragEl = null;
+    this.dragCloneEl = null;
+    this.dragElHeight = null;
+    this.startPosX = null;
     this.startPosY = null;
   }
 
