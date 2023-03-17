@@ -108,11 +108,10 @@ body {
   top: -4px;
   width: 19px;
   height: 19px;
+  background-image: url("../img/close-button.svg");
   background-repeat: no-repeat;
   cursor: pointer;
   opacity: 0;
-  transition: all 0.2s ease;
-  transition-delay: 0.2s;
 }
 
 .block-item:hover .block-item-remove {
